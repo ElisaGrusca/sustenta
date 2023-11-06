@@ -102,7 +102,7 @@ No projeto do Site Sustenta, aplicamos princípios de User Experience (UX) para 
 ## Licença
 
 MIT License
-Copyright (c) 2023 MsC. Elielle Gabrisa
+Copyright (c) 2023 MsC. Elielly & Gabrisa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
