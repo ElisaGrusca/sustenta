@@ -93,6 +93,23 @@ body {
     margin-right: 0%;
     height: 40rem;
   }
+
+
+.fotohome {
+  display: flex;
+  flex-basis: 1000vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0rem;
+  gap: 3rem;
+  width: 1000px;
+}
+
+.fotohome img {
+    max-width: 100%; /* Impede que a imagem ultrapasse a largura do contêiner */
+    height: auto; /* Torna a altura automática para manter a proporção da imagem */
+}
+
   
   .titulo h2 {
     display: inline-block;
@@ -329,6 +346,7 @@ body {
   
   .contato p {
     color: #fff3ef8c;
+    color: #d90ae78c;
     font-size: 1.3rem;
     padding-bottom: 0;
     margin: 1rem 0;
