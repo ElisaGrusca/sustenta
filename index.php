@@ -34,12 +34,13 @@
                 </nav>
             </div>
 
+
+            <div id="fotohome" class="fotohome">
+                <img class="fotohome" src="assets/images/agua.jpg" alt="">
+            </div>
             <div id="home" class="titulo"> <!-- Título -->
                 <h1>Economize Água e Salve o Planeta</h1>
                 <h2>Dicas e informações para um uso sustentável da água</h2>
-            </div>
-            <div id="fotohome" class="fotohome">
-                <img class="fotohome" src="assets/images/agua.webp" alt="">
             </div>
         </div>
     </header>
