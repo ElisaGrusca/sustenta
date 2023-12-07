@@ -86,13 +86,6 @@ body {
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
-  .fotohome {
-    margin-top: 0;
-    width: 147rem;
-    margin-left: 0%;
-    margin-right: 0%;
-    height: 40rem;
-  }
 
 
 .fotohome {
@@ -345,7 +338,6 @@ body {
   }
   
   .contato p {
-    color: #fff3ef8c;
     color: #d90ae78c;
     font-size: 1.3rem;
     padding-bottom: 0;
