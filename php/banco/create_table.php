@@ -1,9 +1,9 @@
 // create_table.php
 <?php
-require_once("config.php");
+require_once("connect.php");
 // create_table.php
 <?php
-require_once("config.php");
+require_once("connect.php");
 
 $sql = "CREATE TABLE IF NOT EXISTS opine (
     id INT AUTO_INCREMENT PRIMARY KEY,

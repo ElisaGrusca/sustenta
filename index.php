@@ -13,8 +13,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/sustant.css">
+    
 
-    <link rel="icon" type="999049.png" href="assets/images/999049.png" />
+    <link rel="icon" type="image/png" href="assets/images/999049.png" />
     <title>EcoÁgua</title>
 </head>
 
@@ -34,9 +35,8 @@
                 </nav>
             </div>
 
-
             <div id="fotohome" class="fotohome">
-                <img class="fotohome" src="assets/images/agua.jpg" alt="">
+                <img class="fotohome" src="assets/images/agua.jpg" alt="Imagem de água">
             </div>
             <div id="home" class="titulo"> <!-- Título -->
                 <h1>Economize Água e Salve o Planeta</h1>
@@ -112,10 +112,10 @@
                         <form action="" method="post">
                             <fieldset>
                                 <label for="name">Nome</label>
-                                <input type="text" id="name" required placeholder="Nome completo">
+                                <input type="text" id="name" name="nome" required placeholder="Nome completo">
 
                                 <label for="e-mail">E-mail</label>
-                                <input type="text" id="e-mail" required placeholder="E-mail">
+                                <input type="text" id="e-mail" name="e-mail" required placeholder="E-mail">
 
                                 <label for="mensagem">Mensagem</label>
                                 <textarea name="mensagem" id="mensagem" cols="30" rows="10" required placeholder="Mensagem"></textarea>
@@ -129,11 +129,11 @@
                         <h2 class="Subtitulo_branco">Mapa do Site</h2>
                         <p>Todas as páginas</p>
                         <ul>
-                            <li> <a href="#home">Home </a></li>
-                            <li> <a href="#dicas"> Dicas </a></li>
-                            <li> <a href="#conscientizacao">Conscientização</a></li>
-                            <li> <a href="#sobre">Sobre</a></li>
-                            <li> <a href="#contato">Contato</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#dicas">Dicas</a></li>
+                            <li><a href="#conscientizacao">Conscientização</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#contato">Contato</a></li>
                         </ul>
                     </div>
 
@@ -141,8 +141,8 @@
                         <h2 class="Subtitulo_branco">Créditos</h2>
                         <p>Recursos e Fontes de Informação</p>
                         <ul>
-                            <li> <a href="https://www.todamateria.com.br/agua/" target="_blank"> todamateria.com</a> </li>
-                            <li> <a href="https://www.infomoney.com.br/minhas-financas/13-maneiras-de-economizar-agua-e-reduzir-o-seu-consumo-e-sua-conta/" target="_blank"> infomoney.com</a> </li>
+                            <li><a href="https://www.todamateria.com.br/agua/" target="_blank">todamateria.com</a></li>
+                            <li><a href="https://www.infomoney.com.br/minhas-financas/13-maneiras-de-economizar-agua-e-reduzir-o-seu-consumo-e-sua-conta/" target="_blank">infomoney.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
 
     </main>
     <div class="wrapperContainerblack"> <!-- Footer -->
-        <footer class="footer"> Elielly & Gabrisa | 2023 </footer>
+        <footer class="footer">Elielly & Gabrisa | 2023</footer>
     </div>
 
 </body>
