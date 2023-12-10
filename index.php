@@ -7,13 +7,11 @@
     <meta name="keywords" content="sustentabilidade, economia de água">
     <meta name="author" content="Elisa Grusca">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" charset="UTF-8">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/sustant.css">
-    
 
     <link rel="icon" type="image/png" href="assets/images/999049.png" />
     <title>EcoÁgua</title>
@@ -76,6 +74,8 @@
                 <div class="conteudoContainer">
                     <div class="conteudo">
                         <div class="conteudoArticle">
+                            <p>O Elixir da Vida e a Sustentabilidade do Nosso Planeta</p>
+                            <p>A água é o elemento fundamental que sustenta toda forma de vida em nosso planeta. Sua importância vai muito além de simplesmente saciar nossa sede; ela desempenha um papel vital em ecossistemas, agricultura, saúde humana e até mesmo no desenvolvimento econômico. Compreender e reconhecer a magnitude da importância da água é essencial para garantir um futuro próspero e sustentável.</p>
                             <p>É importante que todos estejamos cientes da necessidade de conservar água e fazer escolhas responsáveis. A escassez de água é um problema global e pode afetar a todos nós. Com pequenas ações, podemos fazer a diferença.</p>
                             <p>Ao economizar água, não apenas economizamos recursos naturais preciosos, mas também reduzimos nossas contas de água. Além disso, ajudamos a preservar ecossistemas aquáticos e reduzir a poluição da água.</p>
                         </div>

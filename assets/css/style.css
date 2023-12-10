@@ -13,445 +13,430 @@ body {
   margin: 0;
   background-color: #e6f7ff; /* Azul claro para o fundo */
 }
-  
-  p, a {
-    font-size: 1.6rem;
-  }
-  
-  .upper {
-    text-transform: uppercase;
-  }
-  
-  .wrapperContainerdark {
-    background-color: #003672; /* Azul escuro */
-  }
-    
-    .wrapperContainerdark h2 {
-      color: white;
-    }
-  
-  .wrapperContainerdark p {
-    color: rgb(255, 255, 255);
-  }
-  
-  .wrapperContainerred {
-    background-color: var(--primary-color);
-  }
-  
-  .wrapperContainerred h2 {
-    color: white;
-  }
-  
-  .wrapperContainerred p {
-    color: rgba(255, 255, 255, 0.66);
-  }
-  
-  .wrapperContainerblack {
-    background-color: black;
-    color: white;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .hero {
-    background-image: url('assets/images/agua.wbp');
-    height: 55vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2rem;
-    position: relative;
+
+p, a {
+  font-size: 1.6rem;
 }
 
-  
-  .titulo {
-    background-image: url('assets/imagens/agua.webp');
-    
-    text-align: center;
-    margin-top: 1rem;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.upper {
+  text-transform: uppercase;
+}
+
+.wrapperContainerdark {
+  background-color: #003672; /* Azul escuro */
+}
+
+.wrapperContainerdark h2 {
+  color: white;
+}
+
+.wrapperContainerdark p {
+  color: rgb(255, 255, 255);
+}
+
+.wrapperContainerred {
+  background-color: var(--primary-color);
+}
+
+.wrapperContainerred h2 {
+  color: white;
+}
+
+.wrapperContainerred p {
+  color: rgba(255, 255, 255, 0.66);
+}
+
+.wrapperContainerblack {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  background-image: url('assets/images/agua.wbp');
+  height: 55vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  position: relative;
+}
+
+.titulo {
+  background-image: url('assets/imagens/agua.webp');
+  text-align: center;
+  margin-top: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titulo h1 {
+  color: #003672;
+  font-size: 4rem;
+  text-shadow: 0.5rem 0.5rem #ffffffbb;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.fotohome {
+  display: block;
+  width: 100%;
+  height: 50vh; /* 50% da altura da viewport */
+  max-width: 10000px;
+  object-fit: cover; /* Mantém a proporção e corta, se necessário, para preencher completamente o contêiner */
+  margin: 0 auto;
+}
+
+.titulo h2 {
+  display: inline-block;
+  background-color: #fff3ef;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #003572;
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem #000a0595;
+  margin-top: 1rem;
+}
+
+.headerContent {
+  position: fixed;
+  display: flex;
+}
+
+.header_nav ul {
+  display: flex;
+  flex-basis: 40vh;
+  width: auto;
+  list-style-type: none;
+  background-color: #fff3ef;
+  background-size: contain;
+  background-position: relative;
+  border-radius: 1.5rem;
+  height: 2.5rem;
+  padding: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1.1rem;
+  padding-top: 1.9rem;
+}
+
+.header_nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color: #fff3ef;
+  border-radius: 1.5rem;
+}
+
+.header_nav a:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.SubtituloContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Subtitulo {
+  align-items: center;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 3rem;
+  text-shadow: 0.2rem 0.2rem #0a000060;
+  padding: 1rem;
+}
+
+.conteudoContainer {
+  font-size: 2rem;
+  display: flex;
+  flex-basis: 50vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.conteudoArticle {
+  color: #003672;
+  font-size: 2rem;
+  width: 80rem;
+  text-align: justify;
+  padding: 0.5rem;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  padding: 1.5rem 4rem;
+  color: #fff3ef;
+  border-radius: 1.5rem;
+}
+
+.btnContainer a:hover {
+  background-color: #fdfdfd;
+}
+
+.infograficoContainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.infograficoContainerBasis {
+  flex-basis: 60vh;
+}
+
+.infografico {
+  width: 100%;
+  height: auto;
+  max-width: contain;
+  max-height: contain;
+  display: block;
+  border-radius: 1.3rem;
+  margin: 0;
+}
+
+figcaption {
+  color: #fff3ef;
+  font-size: 1.2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.metasContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 150vh;
+}
+
+.metasCard {
+  flex-basis: 30vh;
+  border: 1px solid #fff3ef8c;
+  background-color: var(--primary-color);
+  border-radius: 1.5rem;
+}
+
+.metasCardContent {
+  color: #fff3ef;
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.imagensCard {
+  width: 100%;
+  height: auto;
+  max-width: contain;
+  max-height: contain;
+  display: block;
+  border-radius: 1.3rem;
+  margin: 0;
+}
+
+.Subtitulo_branco {
+  color: #003672;
+  font-size: 3rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.sobrecontainer {
+  display: flex;
+  flex-basis: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 3rem;
+  font-size: 3rem;
+  color: #011b38;
+}
+
+.SubtituloContainer_sobre {
+  text-align: justify;
+  justify-content: left;
+  color: #011b38;
+}
+
+.textoSobreContainer {
+  display: flex;
+  padding-bottom: 2.5rem;
+  width: 50vh;
+  font-size: 3rem;
+}
+
+#este {
+  font-size: 2rem;
+  text-align: justify;
+  color: #011b38;
+  margin: auto;
+}
+
+.paragrafoSobre {
+  font-size: 3rem;
+  text-align: justify;
+  color: #011b38;
+}
+
+.imagemSobre {
+  max-width: 30rem;
+  max-height: 30rem;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  display: inline-block;
+  padding: auto;
+}
+
+.fa-brands {
+  color: #ccccccb9;
+  font-size: 4rem;
+}
+
+.fa-brands:hover {
+  color: #cccccc;
+}
+
+.contatoContainer {
+  display: flex;
+  flex-basis: 150vh;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.contato p {
+  color: #ffffff8c;
+  font-size: 1.3rem;
+  padding-bottom: 0;
+  margin: 1rem 0;
+}
+
+.contato ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contato a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+form {
+  width: 90%;
+  min-width: 25rem;
+  max-width: 100rem;
+  background-color: var(--primary-color);
+  color: #fbfbfb;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-left: -1rem;
+}
+
+label, input, textarea {
+  display: block;
+}
+
+input, textarea {
+  background-color: #f9f9f9;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.btnContato {
+  background-color: #f3eb06;
+  color: #020202;
+  cursor: pointer;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+
+.mapa {
+  flex-basis: 30vh;
+}
+
+.creditos {
+  flex-basis: 30vh;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 48em) {
+  /* Menor que 768px */
+  .header_nav {
+    display: none;
   }
-  
   .titulo h1 {
-    color: #003672;
-    font-size: 4rem;
-    text-shadow: 0.5rem 0.5rem #ffffffbb;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    font-size: 3em;
   }
-
-  .fotohome {
-    display: block;
-    width: 100%;
-    height: 50vh; /* 50% da altura da viewport */
-    max-width: 10000px;
-    object-fit: cover; /* Mantém a proporção e corta, se necessário, para preencher completamente o contêiner */
-    margin: 0 auto;
+  .titulo {
+    margin-top: 10em;
   }
-  
-
-  .titulo h2 {
-    display: inline-block;
-    background-color: #fff3ef;
-    padding: 1rem;
-    border-radius: 1rem;
-    color: #003572;
-    font-size: 2rem;
-    text-shadow: 0.1rem 0.1rem #000a0595;
-    margin-top: 1rem;
+  h2 {
+    font-size: 2em;
   }
-  
-  .headerContent {
-    position: fixed;
-    display: flex;
-  }
-  
-  .header_nav ul {
-    display: flex;
-    flex-basis: 40vh;
-    width: auto;
-    list-style-type: none;
-    background-color: #fff3ef;
-    background-size: contain;
-    background-position: relative;
-    border-radius: 1.5rem;
-    height: 2.5rem;
-    padding: 2rem;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 1.1rem;
-    padding-top: 1.9rem;
-  }
-  
-  .header_nav a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 1.2em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    background-color: #fff3ef;
-    border-radius: 1.5rem;
-  }
-  
-  .header_nav a:hover {
-    background-color: var(--primary-color);
-    color: #ffffff;
-  }
-  
-  .SubtituloContainer {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .Subtitulo {
-    align-items: center;
-    text-align: center;
-    color: var(--primary-color);
-    font-size: 3rem;
-    text-shadow: 0.2rem 0.2rem #0a000060;
-    padding: 1rem;
-  }
-  
-  .conteudoContainer {
-    font-size: 2rem;
-    display: flex;
-    flex-basis: 50vh;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
   .conteudoArticle {
-    color: #003672;
-    font-size: 2rem;
-    width: 80rem;
-    text-align: justify;
-    padding: 0.5rem;
+    width: 80%;
   }
-  
-  .btnContainer {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-  }
-  
-  .btn {
-    text-decoration: none;
-    background-color: var(--primary-color);
-    font-size: 1.5rem;
-    padding: 1.5rem 4rem;
-    color: #fff3ef;
-    border-radius: 1.5rem;
-  }
-  
-  .btnContainer a:hover {
-    background-color: #fdfdfd;
-  }
-  
-  .infograficoContainer {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-  }
-  
-  .infograficoContainerBasis {
-    flex-basis: 60vh;
-  }
-  
-  .infografico {
-    width: 100%;
-    height: auto;
-    max-width: contain;
-    max-height: contain;
-    display: block;
-    border-radius: 1.3rem;
-    margin: 0;
-  }
-  
-  figcaption {
-    color: #fff3ef;
-    font-size: 1.2rem;
-  }
-  
-  .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .metasContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    max-width: 150vh;
-  }
-  
-  .metasCard {
-    flex-basis: 30vh;
-    border: 1px solid #fff3ef8c;
-    background-color: var(--primary-color);
-    border-radius: 1.5rem;
-  }
-  
-  .metasCardContent {
-    color: #fff3ef;
-    font-size: 1.5rem;
-    text-align: justify;
-    padding: 1rem;
-  }
-  
-  .imagensCard {
-    width: 100%;
-    height: auto;
-    max-width: contain;
-    max-height: contain;
-    display: block;
-    border-radius: 1.3rem;
-    margin: 0;
-  }
-  
-  .Subtitulo_branco {
-    color: #003672;
-    font-size: 3rem;
-    padding-top: 1rem;
-    text-align: left; 
-  }
-  
-  .sobrecontainer {
-    display: flex;
-    flex-basis: 100vh;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem;
-    gap: 3rem;
-    font-size: 3rem;
-    color: #011b38;
-
-  }
-  
-  .SubtituloContainer_sobre {
-    text-align: justify;
-    justify-content: left;
-    color: #011b38;
-  }
-  
   .textoSobreContainer {
-    display: flex;
-    padding-bottom: 2.5rem;
-    width: 50vh;
-    font-size: 3rem;
+    width: 50%;
   }
-  
-  #este{
-    font-size: 2rem;
-    text-align: justify;
-    color: #011b38;
-    margin: auto;
-  }
-  .paragrafoSobre {
-    font-size: 3rem;
-    text-align: justify;
-    color: #011b38;
-  }
-  
-  .imagemSobre {
-    max-width: 30rem;
-    max-height: 30rem;
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    display: inline-block;
-    padding: auto;
-  }
-
-  .fa-brands {
-    color: #ccccccb9;
-    font-size: 4rem;
-  }
-  
-  .fa-brands:hover {
-    color: #cccccc;
-  }
-  
   .contatoContainer {
-    display: flex;
-    flex-basis: 150vh;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 2rem;
-    gap: 1rem;
+    margin: 1rem 2rem;
   }
-  
-  .contato p {
-    color: #ffffff8c;
-    font-size: 1.3rem;
-    padding-bottom: 0;
-    margin: 1rem 0;
-  }
-  
-  .contato ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .contato a {
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: #ffffff;
-  }
-  
-  form {
-    width: 90%;
-    min-width: 25rem;
-    max-width: 100rem;
-    background-color: var(--primary-color);
-    color: #fbfbfb;
-    font-size: 1.4rem;
-    margin-bottom: 2rem;
-  }
-  
-  fieldset {
-    border: none;
-    padding: 0;
-    margin-left: -1rem;
+}
 
+@media screen and (min-width: 48em) {
+  /* Maior que 768px */
+  .contatoContainer {
+    flex-wrap: nowrap;
+    margin: 1em 2em;
   }
-  
-  label, input, textarea {
-    display: block;
+}
+
+@media screen and (max-width: 70em) {
+  /* Menor que 1120px */
+  .titulo {
+    margin-top: 15em;
   }
-  
-  input, textarea {
-    background-color: #f9f9f9;
-    border: none;
-    padding: 1rem;
-    margin: 0.5rem 0;
+  .titulo h1 {
+    font-size: 3em;
   }
-  
-  .btnContato {
-    background-color: #f3eb06;
-    color: #020202;
-    cursor: pointer;
-    border: none;
-    font-size: 1.5rem;
-    padding: 1rem 4rem;
-    border-radius: 1.5rem;
-    margin: 1rem;
-  }
-  
-  .mapa {
-    flex-basis: 30vh;
-  }
-  
-  .creditos {
-    flex-basis: 30vh;
-  }
-  
-  .footer {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    align-items: center;
-  }
-  
-  @media screen and (max-width: 48em) {
-    /* Menor que 768px */
-  
-    .header_nav {
-      display: none;
-    }
-  
-    .titulo h1 {
-      font-size: 3em;
-    }
-  
-    .titulo {
-      margin-top: 10em;
-    }
-  
-    h2 {
-      font-size: 2em;
-    }
-  
-    .conteudoArticle {
-      width: 80%;
-    }
-  
-    .textoSobreContainer {
-      width: 50%;
-    }
-  
-    .contatoContainer {
-      margin: 1rem 2rem;
-    }
-  }
-  
-  @media screen and (min-width: 48em) {
-    /* Maior que 768px */
-  
-    .contatoContainer {
-      flex-wrap: nowrap;
-      margin: 1em 2em;
-    }
-  }
-  
-  @media screen and (max-width: 70em) {
-    /* Menor que 1120px */
-  
-    .titulo {
-      margin-top: 15em;
-    }
-  
-    .titulo h1 {
-      font-size: 3em;
-    }
-  }
-  
+}
