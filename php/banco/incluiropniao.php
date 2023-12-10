@@ -1,9 +1,10 @@
 <?php
 // Substitua as informações de conexão do banco de dados
-$servername = "seu_servidor";
-$username = "seu_nome_de_usuario";
-$password = "sua_senha";
-$dbname = "seu_banco_de_dados";
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "Sustenta";
+$port       = 3306;
 
 // Conectar ao banco de dados
 $conn = new mysqli($servername, $username, $password, $dbname);
