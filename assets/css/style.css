@@ -127,6 +127,14 @@ p, a {
   padding-top: 1.9rem;
 }
 
+.art{
+  color: #003672;
+  font-size: 2rem;
+  width: 80rem;
+  text-align: justify;
+  padding: 0.5rem;
+}
+
 .header_nav a {
   color: var(--primary-color);
   text-decoration: none;
